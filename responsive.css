@@ -1,0 +1,330 @@
+/* Laptop screen (from 1025px to 1440px) */
+@media screen and (max-width:1440px)
+{
+img{
+    width: 20%;
+}
+
+
+.text h1{
+    font-size: 38px;
+    
+}
+
+.section-1{
+    width: 87.5%;
+    margin:70px auto;
+
+}
+
+.image-container-1 img{
+    width: 100%;
+}
+
+.section-2{
+    width: 87.5%;
+    margin:70px auto;
+
+}
+
+.heading-container p{
+    width: 87.5% ;
+}
+
+button{
+padding: 14px 34px;
+}
+.element-container{
+    width: 100%;
+}
+.element-and-image-container{
+
+    margin-bottom: 0px;
+  
+}
+.card-image img{
+    width: 30%;
+}
+.card{
+width: 100%;
+}
+.card-container{
+    gap: 34px;
+    width: 87.5%;
+}
+
+.iframe-div{
+    padding: 32px;
+ }
+
+.footer-items{
+   margin: 0px 50px;
+    }
+
+}
+
+.footer-text{
+   
+    font-size: 14px;
+    
+    }
+
+
+
+/* Tablet screen (from 641px to 1024px)*/
+ @media screen and (max-width:1024px)
+{
+    img{
+    width: 30%;
+}
+
+button{
+    font-size:16px;
+    padding:10px 13px;
+}
+.logo h1{
+    font-size: 24px;
+   
+}
+
+.logo span{
+     font-size: 24px;
+}
+header{
+
+    padding: 21px 0px 21px 0px;
+
+}
+.section-1{
+    width: 85.5%;
+    margin:50px auto;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.text h1{
+    font-size: 30px;
+   
+   
+}
+.text p{
+      font-size: 14px;
+  
+}
+.btn-container{
+    margin-bottom: 20px;
+}
+
+.element-and-image-container{
+  flex-direction: column-reverse;
+    margin-bottom: 0px;
+    padding: 30px;
+ 
+   
+    
+}
+.image-container-1 img{
+    width: 60%;
+}
+
+.heading-container p{
+    font-size: 14px;
+    margin: 15px auto 38px auto;
+}
+.element-container-1{
+    text-align: center;
+    width: 95%;
+   
+}
+.element-container-1 p{
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.element-container-1 h1{
+    margin-bottom: 18px;
+}
+button{
+    border-radius: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 12px;
+}
+.top-button button{
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 14px;
+}
+
+.section-3{
+    width: 87.5%;
+}
+
+ .section-4{
+    margin:50px auto;
+   
+ }
+
+.card-container{
+    
+   flex-direction: column;
+    
+ text-align: center;
+    gap:50px;
+}
+
+.card{
+
+text-align: center;
+}
+.card-image img{
+    width: 15%;
+ 
+}
+.card-text h1{
+    font-size: 30px;
+}
+
+.footer-items{
+   flex-direction: column-reverse;
+   gap: 20px;
+    }
+footer{
+
+   padding-top:30px;
+   padding-bottom: 17px;
+  
+ }
+  
+
+}
+
+
+
+
+
+/* Mobile screen (from 384px to 640px) */
+@media screen and (max-width:640px)
+{
+    img{
+    width: 40%;
+}
+button{
+    font-size:10px;
+    padding:7px 10px;
+     font-weight: 500;
+}
+.logo h1{
+    font-size: 20px;
+   
+}
+
+.logo span{
+     font-size: 20px;
+}
+header{
+
+    padding: 15px 0px 15px 0px;
+
+}
+.section-1{
+    width: 85.7%;
+    
+  padding: 20px 25px;
+}
+.text h1{
+    font-size: 25px;
+   margin-bottom: 15px;
+   
+}
+.text p{
+      font-size: 12px;
+       margin-bottom: 20px;
+}
+.btn-container{
+    margin-bottom: 5px;
+}
+
+.image-container{
+    margin-bottom: 20px;
+ }
+.text h1{
+    font-size:22px ;
+}
+
+.heading-container h1{
+    font-size: 22px;
+    
+   
+}
+.heading-container p {
+    font-size: 12px;
+}
+
+.section-2{
+    width: 87.5%;
+    margin: 0px auto;
+    
+}
+.element-container-1{
+    text-align: center;
+    width: 100%;
+}
+.element-container-1 h1{
+    font-size: 17px;
+}
+.element-container-1 p{
+font-size: 12px;
+}
+button{
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+.top-button button{
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+ font-size: 12px;
+}
+.heading-container p{
+    margin: 8px auto 25px auto;
+}
+.element-and-image-container{
+
+    margin-bottom: 50px;
+  
+}
+
+.iframe-div{
+    padding: 10px;
+ }
+.card-image img{
+    width: 20%;
+ 
+}
+.card-text h1{
+    font-size: 25px;
+}
+
+.footer-items{
+   flex-direction: column-reverse;
+   gap: 10px;
+    }
+footer{
+
+   padding-top:27px;
+   
+  
+ }
+ .footer-text p{
+    font-size: 12px;
+ }
+ .footer-image img{
+    width: 15%;
+    
+ }
+ .footer-image{
+    text-align: center;
+ }
+}
